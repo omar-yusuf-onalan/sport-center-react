@@ -1,0 +1,55 @@
+.classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: black;
+    background-color: white;
+}
+
+.class-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 35px;
+}
+
+.class-buttons button {
+    background-color: var(--title-color);
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 85px;
+}
+
+.changing-class {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.changing-class img {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.class-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 15%;
+}
+
+.image-div {
+    display: flex;
+    justify-content: right;
+    padding-top: 40px;
+
+}
