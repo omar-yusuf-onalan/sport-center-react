@@ -1,0 +1,43 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.fixed-header.scrolled {
+    background-color: #355592;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-button {
+    display: none;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-right button {
+    background-color: var(--button-color);
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
